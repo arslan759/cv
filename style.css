@@ -1,0 +1,151 @@
+#cv{
+    background-color: #dfdfdf;
+    margin: 5% auto;
+    width: 60%;
+    padding: 20px 50px;
+    border-top: 7px solid #575757;
+    border-bottom: 2px solid #575757;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #575757
+}
+
+section{
+    padding: 10px;
+}
+
+img{
+    height: 150px;
+}
+
+#header , .details , #skills-info , #technical-info{
+    display: flex;
+}
+
+#header{
+    justify-content: space-between;
+}
+
+#profile-info{
+    width: 60%;
+}
+
+.container{
+    padding-right: 15px;
+    width: 33%;
+}
+
+#name{
+    margin-top: 50px;
+    width: 55%;
+    text-transform: uppercase;
+}
+
+#info{
+    margin-top: 50px;
+}
+
+#name h1{
+    font-size: 25px;
+    line-height: 0px;
+}
+
+#name h3{
+    line-height: 15px;
+}
+
+#info{
+    width: 25%;
+}
+
+.left{
+    width: 20%;
+}
+
+.right{
+    width: 80%;
+}
+
+.details{
+    border-bottom: 2px solid #575757;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+tr:first-child{
+    border-top: none;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+tr{
+    border-top: 1px solid #575757;
+    border-bottom: 1px solid #575757
+}
+
+.sub-exp-info{
+    border-bottom: 1px solid #575757;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.sub-exp-info:last-child{
+    border-bottom: none;
+    padding-bottom: 3rem;
+}
+
+#edu-info h3 , #edu-info p , #exp-info h3 , #exp-info h5 , #exp-info h6 , #info p{
+    line-height: 0px;
+}
+
+#info p{
+    margin-top: 10px;
+}
+
+#exp-info h6{
+    float: right;
+    margin-top: 20px;
+}
+
+#education-section{
+    padding-bottom: 4rem;
+}
+
+footer{
+    line-height: 0px;
+    font-size: smaller;
+    font-weight: 300;
+    text-align: center;
+    height: 60px;
+}
+
+a{
+    color: red;
+    line-height: 30px;
+}
+
+a:hover{
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #575757;
+}
+
+button:hover{
+    border-radius: 10px;
+    color: black;
+    background-color: #e45252;
+    border: 2px solid #ffc400;
+    cursor: pointer;
+}
